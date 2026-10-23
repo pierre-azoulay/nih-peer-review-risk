@@ -1,0 +1,13 @@
+# written by every run; never part of the package
+logs/
+estimates/
+graphs/
+# Stata's batch log, written in the folder where Stata starts
+/*.log
+# Python caches
+__pycache__/
+*.pyc
+# the package's data root, if a replicator points config.do inside the package
+/data_root/
+# the public analysis file, unzipped by master.do or written by the build (the zip is the distributed copy)
+/data/nih_risk_public.dta
